@@ -1,0 +1,29 @@
+{
+  "name": "crm-graphql",
+  "version": "1.0.0",
+  "description": "crm ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geniototal/CRM-GraphQL.git"
+  },
+  "author": "Carlos Malissia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geniototal/CRM-GraphQL/issues"
+  },
+  "homepage": "https://github.com/geniototal/CRM-GraphQL#readme",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "dotenv": "^16.4.1",
+    "graphql": "^16.8.1",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
